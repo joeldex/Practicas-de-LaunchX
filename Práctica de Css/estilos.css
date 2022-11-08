@@ -1,0 +1,202 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: #1655bb;
+    font-weight:bolder;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu-nav{
+    display: flex;
+}
+#li-nav{
+    list-style: none;
+    margin-right:30px;
+}
+#boton-pruebas{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    background-color: #1655bb;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 8px 27px -6px rgb(21, 95, 180);
+}
+.primera-section{
+    background-image: url(chica-enfermera-1.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    color: #063682;
+    font-size: 50px;
+    margin-top: 105px;
+}
+#menu-navegacion{
+    color: rgb(105, 105, 105);
+}
+#iconos-menu{
+    height: 20px;
+}
+.posicion-span{
+    display: flex;
+    align-items: center;
+}
+.orden-iconos{
+    display: flex;
+    align-items: center;
+}
+.orden-iconos p{
+    margin-left: 5px;
+}
+.i2{
+    margin-left: 25px;
+}
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+.datos{
+    display:flex;
+    box-shadow: 0px 8px 27px -6px rgb(21, 95, 180);
+    width: 800px;
+    height: 130px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+.datos p{
+    margin-left: 65px;
+}
+#boton-subir{
+    margin-left: 55px;
+    padding: 20px 50px 20px 50px;
+    background-color: #1655bb;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 8px 27px -6px rgb(21, 95, 180);
+    margin-left: 70px;
+    margin-right: 40px;
+    border: 0px;
+}
+#provacuna{
+    margin-top:20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #063682;
+    font-weight:bolder;
+}
+.sesec-2 h3{
+    color: #063682;
+    font-size: 33px;
+    margin-top: 70px;
+}
+.sesec-2 h4{
+    color: #063682;
+}
+.contenedor-razon{
+    display: flex;
+    justify-content: space-around;
+    margin-top:60px;
+}
+.razon-vacuna{
+    height:100px;
+    width: 200px;
+}
+.segunda-section{
+    height: 100vh;
+    width: 100%;
+}
+.secsec-3{
+    background: url(chica\ con\ mascarilla.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.flex-info-sec3{
+    display:flex;
+    justify-content:flex-end;
+}
+.info-sec3 h3{
+    margin-top:25px;
+    color: #063682;
+    font-size: 33px;
+}
+.secsec-4{
+    background: url(enfermero\ sonriente.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 150px;
+}
+.contenedor-sec4 h3{
+    padding-top:70px;
+    color: #063682;
+    font-size: 33px;
+}
+.flex-info-sec3-2{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 300px;
+    color: #063682
+}
+.flex-info-sec3-2 h4{
+    margin-top: 10px;
+}
+footer{
+    background-color: rgb(226, 247, 240);
+}
+#quitar-margen{
+    margin: 0%;
+}
+.contenedor-footer{
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-between;
+}
+.contenedor-footer li{
+    list-style: none;
+    margin:0%;
+}
+.contenedor-footer h4{
+    color:#063682;
+    font-size:18px;
+}
+.contenedor-footer ol{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.listas-footer{
+    display: flex;
+}
+.listas-footer li{
+    margin-top: 15px;
+}
+.espacio-listas{
+    margin-left: 80px;
+}
+.el1{
+    flex-wrap: wrap;
+}
+.alinear-info-adicional{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ultima-alineacion{
+    display: flex;
+}
+#alineacionderecha{
+    margin-right: 40px;
+}
